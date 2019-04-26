@@ -12,6 +12,7 @@
       "element",
       "nga",
       "kebab-case"
-    ]
+    ],
+    "no-string-literal": false
   }
 }

@@ -3,4 +3,9 @@
         <nga-carousel></nga-carousel>
     </div>
 </div>
-<div class="row">We'll render some stuff here later</div>
+<div class="row">
+    <div *ngFor="let product of Products" class="col-sm-4">
+        <nga-product-item [product]="product"></nga-product-item>
+    </div>
+
+</div>
